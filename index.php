@@ -11,29 +11,29 @@
 <body>
     <div class="list">
         <h1 class="header">PHP - To do list</h1>
-
         <ul>
-            <li>
-                <span class="item">Review Warrens PHP Video</span>
+            <li class="item">
+                <span>Review Warrens PHP Video</span>
+                <a href="#" class="done-button"> Mark as done</a>
             </li>
-            <li>
-                <span class="item">20 push ups...</span>
+            <li class="item">
+                <span>20 push ups...</span>
             </li>
-            <li>
-                <span class="item">Send group reflection video to techc</span>
+            <li class="item">
+                <span>Send group reflection video to techc</span>
             </li>
 
-            <li>
-                <span class="item">fix local basketball net</span>
+            <li class="item">
+                <span>fix local basketball net</span>
             </li>
-            <span class="item done"></span>
+            <li class="item-done">
+                <span>shoot 20 free throws</span>
+            </li>
         </ul>
 
         <form action="add.php" method="POST">
-            <input type="text" name="name" placeholder="Type a new item here." class="input" autocomplete="off">
-            <input type="submit" value="add" class="submit">
-
-
+            <input type="text" name="name" placeholder=" Type a new item here." class="input" autocomplete="off">
+            <input type="submit" value="Add Item to List" class="submit">
         </form>
 
     </div>
