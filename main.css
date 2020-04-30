@@ -19,28 +19,27 @@ body {
 /* buttons */
 
 .done-button {
-    display: inline-block;
-    padding: 4px 6px;
-  
-    font-size: 0.8em;
-    background-color: rgba(0, 0, 0, 0.37);
-    color: rgb(209, 10, 209);
-  }
+  display: inline-block;
+  padding: 4px 6px;
 
- .submit {
-    display: inline-block;
-    box-shadow: 4px 4px;
-    padding: 5px 10px;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-size: 0.8em;
+  background-color: rgba(0, 0, 0, 0.37);
+  color: rgb(209, 10, 209);
+}
 
-    font-size: 1em;
-    font-weight: bolder;
-    background-color: rgb(255, 255, 255);
-    color: rgb(197, 105, 18);
-  }
-  
+.submit {
+  display: inline-block;
+  box-shadow: 4px 4px;
+  padding: 5px 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: rgb(255, 255, 255);
+  color: rgb(197, 105, 18);
+}
 
 /* 
 Items */
@@ -52,25 +51,25 @@ Items */
 }
 
 .item-done {
-    margin: 0;
-    padding-bottom: 10px;
-    list-style-type: square;
-    text-decoration: line-through;
+  margin: 0;
+  padding-bottom: 10px;
+  list-style-type: none;
+  text-decoration: line-through;
 }
 
 /* list */
 
 .list {
-    background-color: purple;
-  
-    padding: 20px;
-    margin: 20px auto;
-    width: 100%;
-    max-width: 600px;
-  
-    border-radius: 10px;
-    box-shadow: 10px 10px black;
-  }
+  background-color: purple;
+
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+
+  border-radius: 10px;
+  box-shadow: 10px 10px black;
+}
 
 .input {
   border: 0;
@@ -79,7 +78,6 @@ Items */
   width: 100%;
 }
 
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
-
